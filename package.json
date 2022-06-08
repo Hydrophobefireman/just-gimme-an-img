@@ -2,14 +2,13 @@
   "name": "just-an-image",
   "version": "0.0.0",
   "scripts": {
-    "dev": "vite",
+    "dev": "vite dev",
     "build": "vite build",
     "serve": "vite preview"
   },
   "devDependencies": {
     "vercel": "^22.0.1",
-    "vite": "^2.1.5",
-    "vite-plugin-pwa": "^0.7.3"
+    "vite": "^2.9.10"
   },
   "dependencies": {
     "@web/rollup-plugin-import-meta-assets": "^1.0.6",
